@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.container{
+    background-color: rgb(240, 241, 241);    
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.box1{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color:background: #16BFFD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: 100%;
+    width: 66%;
+}
+.box1 h1{
+    font-size: 145px;
+    color: aliceblue;
+   
+    font-weight: 200;
+}
+h2{
+    margin-top: 20px;
+font-size: 65px;
+color: aliceblue;
+font-weight: 400;
+}
+h3{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(245, 247, 249);
+}
+.text-section{
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 34%;
+    background-color:#fff;
+}
+.text-section h3{
+    margin-top: 120px;
+    color: black;
+}
+.text-section h2{
+margin-top: 45px;
+font-size: 25px;
+color: black;
+}
+input{
+    margin-top: 80px;
+    height: 37px;
+    width:330px;
+    border: none;
+border-bottom:1px solid gray;
+font-size: 15px;
+
+}
+.text-section input:focus{
+outline: none;
+}
+button{
+    margin-top: 30px;
+    height: 40px;
+    width: 330px;
+    background-color: rgb(103, 103, 190);
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}
+.dev{
+    display: flex;
+    margin-top: 20px;
+
+   
+}
+.dev a{
+    margin-top: 5px;
+    margin-left: 28px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(103, 103, 185);
+}
+.dev i{
+    margin-right:5px ;
+    border: 1px solid rgb(158, 154, 154);
+
+}
+.btn{
+    height: 40px;
+    width: 330px;
+    background-color: #fff;
+    font-size: 17px;
+    color: rgb(103, 103, 168);
+    border: 1px solid rgb(103, 103, 168) ;
+   
+}
+h5{
+    font-size: 18px;
+    margin-top: 23px;
+    font-weight: 500;
+}
+.btn1 img{
+    margin-right:7px;
+    height: 23px;
+    width: 23px;
+}
+.btn1{ 
+    margin-top: 15px;
+    height: 40px;
+    width: 330px;
+    background-color: #fff;
+    font-size: 19px;
+    color: rgb(13, 13, 16);
+    border: 1px solid rgb(207, 207, 216) ;
+}
+.term{
+    margin-top: 90px;
+    
+}
+.term a{
+    text-decoration: none;
+}
+@media(max-width : 764px){
+.box1{
+    display: none;
+}
+.text-section{
+    justify-content: center;
+width: 100%;
+}
+box
+    
+}
